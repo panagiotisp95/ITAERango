@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98e9805d-ba95-4696-8408-7379fad45d40" name="Default Changelist" comment="">
+    <list default="true" id="98e9805d-ba95-4696-8408-7379fad45d40" name="Default Changelist" comment="Added templates and images">
+      <change afterPath="$PROJECT_DIR$/tango_with_django_project/static/image/rango.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tango_with_django_project/templates/rango/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tango_with_django_project/rango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tango_with_django_project/rango/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tango_with_django_project/rango/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tango_with_django_project/rango/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tango_with_django_project/tango_with_django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tango_with_django_project/tango_with_django_project/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,24 +26,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="263" />
-          <entry key="txt" value="41" />
+          <entry key="html" value="22" />
+          <entry key="py" value="284" />
+          <entry key="txt" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="41" />
-          <entry key="Python" value="263" />
+          <entry key="HTML" value="22" />
+          <entry key="PLAIN_TEXT" value="99" />
+          <entry key="Python" value="284" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="4" />
+          <entry key="html" value="1" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="4" />
+          <entry key="HTML" value="1" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -60,14 +66,33 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tango_with_django_project/tango_with_django_project/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1410">
+              <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tango_with_django_project/templates/rango/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tango_with_django_project/rango/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1581852743891" expanded="true" signature="206:297" ph="..." />
+                <marker date="1581858246154" expanded="true" signature="129:621" ph="..." />
+                <marker date="1581858246154" expanded="true" signature="640:731" ph="..." />
               </folding>
             </state>
           </provider>
@@ -106,6 +131,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>STATICFILES_DIRS</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -113,10 +143,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tango_with_django_project/manage.py" />
-        <option value="$PROJECT_DIR$/tango_with_django_project/tango_with_django_project/settings.py" />
         <option value="$PROJECT_DIR$/tango_with_django_project/tango_with_django_project/urls.py" />
         <option value="$PROJECT_DIR$/tango_with_django_project/rango/urls.py" />
         <option value="$PROJECT_DIR$/tango_with_django_project/rango/views.py" />
+        <option value="$PROJECT_DIR$/tango_with_django_project/tango_with_django_project/settings.py" />
+        <option value="$PROJECT_DIR$/tango_with_django_project/templates/rango/index.html" />
       </list>
     </option>
   </component>
@@ -148,12 +179,6 @@
               <item name="ITAE" type="b2602c69:ProjectViewProjectNode" />
               <item name="ITAE" type="462c0819:PsiDirectoryNode" />
               <item name="tango_with_django_project" type="462c0819:PsiDirectoryNode" />
-              <item name="rango" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ITAE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ITAE" type="462c0819:PsiDirectoryNode" />
-              <item name="tango_with_django_project" type="462c0819:PsiDirectoryNode" />
               <item name="tango_with_django_project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -170,6 +195,12 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tango_with_django_project/static/image" />
+      <recent name="$PROJECT_DIR$/tango_with_django_project/image/static" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -240,16 +271,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created Django App" />
     <MESSAGE value="Added urls into rango" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added urls into rango" />
+    <MESSAGE value="Chapter 3 Exercises done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 3 Exercises done" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tango_with_django_project/tango_with_django_project/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tango_with_django_project/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -282,12 +307,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tango_with_django_project/rango/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <marker date="1581852743891" expanded="true" signature="206:297" ph="..." />
+            <marker date="1581858246154" expanded="true" signature="129:621" ph="..." />
+            <marker date="1581858246154" expanded="true" signature="640:731" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tango_with_django_project/tango_with_django_project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tango_with_django_project/templates/rango/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
